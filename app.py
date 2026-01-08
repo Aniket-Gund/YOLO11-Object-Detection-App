@@ -12,6 +12,25 @@ st.markdown("""
 .main { background-color: #f5f7f9; }
 .stButton>button { width: 100%; border-radius: 5px; height: 3em; background-color: #ff4b4b; color: white; }
 .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+
+/* Summary section background */
+[data-testid="stMetric"] {
+    background-color: #1e1e1e !important;
+    color: white !important;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Metric labels */
+[data-testid="stMetricLabel"] {
+    color: #bbbbbb !important;
+}
+
+/* Metric values */
+[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+    font-weight: bold;
+}
 </style>
 """, unsafe_allow_html=True)
 
